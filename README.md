@@ -1,0 +1,2 @@
+# CSS calc() Unexpected Behavior
+This repository demonstrates an uncommon bug in CSS related to the `calc()` function.  Improper spacing or operator precedence can lead to unexpected results and layout issues. The `bug.css` file contains the problematic code, while `bugSolution.css` shows the corrected version.  This issue highlights the importance of adhering to the correct syntax when using the `calc()` function.
