@@ -1,0 +1,13 @@
+To fix the error, ensure there are spaces around the operators within the `calc()` function.  Always separate the values and operators with spaces.
+
+```css
+width: calc(100% - 10px);
+/* Correct usage */
+```
+
+Incorrect usages:
+```css
+width: calc(100%-10px); /* Missing space before - */
+width:calc(100%-10px); /* Missing space before and after calc */
+width:calc(100% - 10px); /*Extra space after calc*/
+```
